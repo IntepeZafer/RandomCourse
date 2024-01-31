@@ -15,8 +15,8 @@ function App() {
   });
   return (
     <div className='App'>
-      <button onClick={handleClick}>Kurs Ekle</button>
-      <div>{courseList}</div>
+      <button className='appButton' onClick={handleClick}>Kurs Ekle</button>
+      <div className='coutseList'>{courseList}</div>
     </div>
   )
 }
